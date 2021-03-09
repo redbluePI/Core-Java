@@ -11,15 +11,15 @@ public class Main {
 //		System.out.print(e);
 //		System.out.println();
 //		System.out.print("Main'deki main metodu calisiyor...");
-        Scanner in = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        int n = in.nextInt();
+        int n = scanner.nextInt();
         String arr[] = new String[n];
 
-        in.nextLine();
+        scanner.nextLine();
 
         for (int i = 0; i < n; i++){
-            arr[i] = in.nextLine();
+            arr[i] = scanner.nextLine();
         }
 
         for (int i = 0; i < n; i++){

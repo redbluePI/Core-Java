@@ -7,6 +7,10 @@ public class Operatorler {
 		int i1 = 2 + 5;
 		System.out.println("2 + 5 = " + i1);
 
+		System.out.println("1 + 2 = " + 1 + 2);
+		System.out.println("1 + 2 = " + (1 + 2));
+
+
 		i1 = i1 - 1;
 		System.out.println("7 - 1 = " + i1);
 		
@@ -69,6 +73,16 @@ public class Operatorler {
 		System.out.println((5<3 ? true : false));
 		String s1 = "Selam";
 		System.out.println("s1 bir String nesnesi mi? " + (s1 instanceof String));
+		
+		
+		//operatörlerin öncelikleri
+		int n = 9;
+		int m = 11;
+		int sonuc = ++n * m--;
+		System.out.println("++n * m-- = " + sonuc);
+		System.out.println("34 - 16 * 2 = " + (34 - 16 * 2));
+		System.out.println("15 / 3 * 2 = " + (15 / 3 * 2));
+		
 	}
 
 }

@@ -68,7 +68,7 @@ public class Operatorler {
 		// diger operatörler
 		System.out.println((5<3 ? true : false));
 		String s1 = "Selam";
-		System.out.println("s1'in String nesnesi mi? " + (s1 instanceof String));
+		System.out.println("s1 bir String nesnesi mi? " + (s1 instanceof String));
 	}
 
 }

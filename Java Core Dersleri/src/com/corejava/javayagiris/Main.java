@@ -1,6 +1,5 @@
 package com.corejava.javayagiris;
 
-import java.util.Scanner;
 
 public class Main {
 

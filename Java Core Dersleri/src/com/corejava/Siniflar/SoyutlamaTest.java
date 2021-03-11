@@ -33,5 +33,5 @@ class Ogrenci{
 	void yaz() {
 		System.out.println("Ögrenci " + isim + ", " + k1.renk + " ile yaziyor.....");
 	}
-	
+
 }

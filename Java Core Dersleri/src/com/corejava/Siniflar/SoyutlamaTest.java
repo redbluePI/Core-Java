@@ -3,7 +3,7 @@ package com.corejava.Siniflar;
 public class SoyutlamaTest {
 
 	public static void main(String[] args) {
-		Ogrenci o1 = new Ogrenci();
+		Ogrenciler o1 = new Ogrenciler();
 		o1.isim = "Ahmet";
 		o1.no = 729;
 		o1.k1 = new Kalem();
@@ -11,7 +11,7 @@ public class SoyutlamaTest {
 		o1.k1.tip = 1;
 		
 		o1.yaz();
-		Ogrenci o2 = new Ogrenci();
+		Ogrenciler o2 = new Ogrenciler();
 		o2.isim = "Mehmet";
 		o2.no = 735;
 		o2.k1 = new Kalem();
@@ -25,7 +25,7 @@ class Kalem{
 	String renk;
 	int tip;
 }
-class Ogrenci{
+class Ogrenciler{
 	String isim;
 	int no;
 	Kalem k1;

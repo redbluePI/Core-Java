@@ -3,7 +3,7 @@ package com.corejava.Siniflar;
 public class YapiciMetotTest {
 
 	public static void main(String[] args) {
-		GUI Arayüz = new GUI("asd");
+		GUI Arayuz = new GUI("asd");
 		
 	}
 

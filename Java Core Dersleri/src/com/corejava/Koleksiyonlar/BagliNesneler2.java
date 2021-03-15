@@ -22,6 +22,9 @@ public class BagliNesneler2 {
 		System.out.println(h1);
 		h1.remove(16);
 		System.out.println(h1);
+		for(String i : h1.values()) {
+			System.out.println(i);
+		}
 		for(Map.Entry<Integer, String> e : h1.entrySet()) {
 			System.out.println(e.getValue());
 		}

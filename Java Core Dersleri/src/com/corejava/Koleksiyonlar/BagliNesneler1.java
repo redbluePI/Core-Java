@@ -53,6 +53,13 @@ public class BagliNesneler1 {
 		System.out.println("kutular: " + kutular);
 		Collections.sort(kutular);
 		System.out.println("sıralı kutular: " + kutular);
+		
+		
+		System.out.println("...............................................................................");
+		LinkedList<Double> maaşlar = new LinkedList<Double>();
+		maaşlar.add(1500.50);
+		maaşlar.add(2000.70);
+		System.out.println("maaşlar: " + maaşlar);
 	}
 
 }

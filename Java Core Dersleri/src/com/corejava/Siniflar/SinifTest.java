@@ -3,12 +3,21 @@ package com.corejava.Siniflar;
 public class SinifTest {
 	String test1 = "basarili";
 	public static void main(String[] args) {
-
+		
+		
 		int i = 4;
 		int k = i;
 		i = 5;
 		k = i;
-		System.out.println(k);
+		System.out.println("k = " + k);
+		
+		Kullanici k3 = new Kullanici();
+		k3.isim = "Ahmet";
+		Kullanici k4 = k3;
+		System.out.println(k4.isim);
+		
+		
+		
 		
 		System.out.println("----------------------------------------------------");
 //default degerler
@@ -41,7 +50,7 @@ class Kullanici{
 	double d;
 	
 //metotlar
-	void durumVer() {
+	void durumYaz() {
 		System.out.println("Isim: " + isim + " ID: " + id);
 	}
 	String isimYazdir() {
